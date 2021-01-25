@@ -71,7 +71,7 @@ const AppWeather = {};
             dataType: 'json',
             data: {
                 q: city,
-                appid: '44bee0486cb1c52d26dff237d9bdd16c',
+                appid: 'abcdefghijlkno',
                 units: 'metric',
                 lang: 'en'
                 }
@@ -92,8 +92,8 @@ const AppWeather = {};
                 reqUrl: "https://www.stands4.com/services/v2/poetry.php",
                 params:{
                     method: 'GET',
-                    uid: '8164',
-                    tokenid: 'shL7zd6fJWxyEZUl',
+                    uid: '1234',
+                    tokenid: 'xxx',
                     term: term.weather[0].description,
                     format: 'json'
                 }
