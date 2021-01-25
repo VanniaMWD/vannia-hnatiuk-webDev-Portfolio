@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9ba553115d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Varela+Round&display=swap" rel="stylesheet"> 
+    <title>Ayayay!!! Taqueria</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="document">
+            <section class="header">
+                <h1>Invoice</h1>
+                <div class="top">
+                    <div class="left">
+                        <i class="fas fa-pepper-hot logoStore"></i>
+                        <h2 class=store-name>Ayayay!!! Tacos  &amp; Tequila</h2>
+                        <p>12345 Whyte Av Nw </p>
+                        <p>ZP: T6E 6G6</p>
+                        <p>Edmonton, Alberta</p>
+                        <p><span class="bold">ayayayeg@gmail.com</span></p>
+                    </div>
+                    <div class="right">
+                        <p><span class="bold">Invoice Number:</span> 666666</p>
+                        <p><span class="bold">Date: </span> November 11th, 2020</p>
+                        <div class="Instructions">
+                            <h4>Instructions of Table</h4>
+                            <ol>
+                                <li>It operates up to 6 transactions</li>
+                                <li>5 rows can be added through "Add row" button</li>
+                                <li>Select a service from the drop down menu</li>
+                                <li>Click "Up" or "Down" to control "QTY" to submit the units of service</li>
+                                <li>Press "Delete" to remove each row upwards</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <h3>Customer's Info</h3>
+            </section> 
+<!--    Customer's Info Form           -->       
+            <form action="#">
+                <div class="form-flex">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" id="name" class="field" placeholder="Name" >
+
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" id="email" class="field" placeholder="E-mail">
+
+                    <label for="mail-address" class="sr-only">Mail Address</label>
+                    <textarea name="mail-address" id="mail-address" class="field" cols="30" rows="4">Mail Address</textarea>
+
+                    <label for="telephone" class="sr-only">Telephone</label>
+                    <input type="text" id="telephone" class="field phone" placeholder="(780)-xxxx-xxxxx">                
+                </div>
+            </form>
+<!--           Table of Charges                    -->
+            <h3>Charges</h3>
+            <div class=tb-flex>
+                <table>
+                    <tr class="heading">
+                        <th>Service </th>
+                        <th> Fee</th>
+                        <th> QTY </th>
+                        <th>Cost</th>
+                    </tr> 
+                    <tr class="transactions">
+                        <td class="service"><select name="item">
+                            <option value disabled selected>Service</option>
+                            <option value="3">Tacos</option>
+                            <option value="2">Pop</option>
+                            <option value="5">Tequila</option>
+                            <option value="15">Fondue</option>
+                            <option value="4">Beer</option>
+                            <option value="150">Mariachi</option>
+                        </td>
+                        <td class="FI"></td>
+                        <td class="QTY">
+                            <input type="number" class="qty" name="qty" value="AppInvoiceSystem.quanti" placeholder="0">
+                        </td>
+                        <td class="Prais"></td>
+                    </tr>        
+                    <tr class="Charges">
+                        <td class="empty"></td>
+                        <td colspan="2" class="label">SubTotal</td>
+                        <td class="Subtotal"></td>
+                    </tr>
+                    <tr class="Charges">
+                        <td class="empty"></td>
+                        <td colspan="2"class="label">GST</td>
+                        <td class="GST"></td>
+                    </tr>
+                    </tr class="Charges">
+                        <td class="empty"> Gracias </td>
+                        <td colspan="2" class="label">TIP ( 15 % ) Thank You</td>
+                        <td class="TIP"></td>
+                    </tr>
+                    <tr class="Charges">
+                        <td class="empty"></td>
+                        <td colspan="2" class="label">Total to Pay</td>
+                        <td class="Total"></td>
+                    </tr>
+                </table>
+                <div class="buttons">
+                    <button class="add-row"> Add Row</button>
+                    <button class="dlt-row">Delete</button>
+                </div>
+            </div>
+            <section class="social-media">
+                <p>Find us as "Ayayay!!! Tacos  &amp; Tequila": <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram-square"></i> 
+                </p>                     
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>Created at <a href="https://junocollege.com/">Juno College</a></p>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

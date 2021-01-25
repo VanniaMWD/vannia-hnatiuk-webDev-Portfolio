@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Gloria+Hallelujah&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
+    <title>Get the weather and a poem</title>
+</head>
+<body>
+    <header>
+        <h1>Get the weather and a Poem!!! </h1>       
+        <div class="sub-header">
+            <form action="#">
+                <label for="forma">Your city</label>
+                <input type="text" id="forma" placeholder="New York">
+                <input type="submit" value="Let's see">
+            </form>
+            <div class="sun"></div>        
+            <div class="cloud">
+                <div class="fluff left"></div>
+                <div class="fluff right"></div>
+            </div>
+        </div>
+    </header>
+    <section class="results">
+    </section>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script src="./script.js"></script>
+</body>
+</html>

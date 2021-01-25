@@ -1,0 +1,350 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+
+/*fonts     font-family: 'Concert One', cursive;
+
+font-family: 'Varela Round', sans-serif;*/
+html{
+    font-family:'Varela Round', sans-serif ;
+}
+
+.document{
+    border-top: 1px solid rgba(0, 0, 0, 0.753);
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.753);
+    border-left: 5px solid green;
+    border-right: 5px solid red;
+}
+.wrapper {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 1% auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    width: calc(50% - ( 2 * 1%));
+}
+
+.right{
+    display:flex;
+    flex-direction: column;
+    margin: 1%;
+    width: calc(50% - ( 2 * 1%));
+    padding-bottom: 27%;
+    text-align: end;
+    padding-bottom: 7%;
+}
+
+.Instructions{
+    background-color: rgba(255, 255, 153, 1);
+    box-shadow: 10px 10px 20px gray;
+    padding: 1%;
+    text-align: start;
+}
+/* styling the store's logo*/
+.logoStore{
+    color: green;
+    font-size: 10em;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.store-name{
+    font-family: 'Concert One', cursive;
+    color: rgb(170, 18, 18);
+    font-size: 2.5em;
+    width: 30%;
+    margin: 1% auto;
+}
+
+p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
+}
+
+.left p{
+    margin: 0.5% auto;
+}
+/*styling span elements*/
+
+.bold{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center; 
+    display: block;
+    margin: 1% auto;
+}
+
+
+/*STYLING CUSTOMER FORM INFO*/
+form{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.form-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.field{
+    font-size: 1em;
+    padding: 2%;
+    margin: 1%;
+    width: calc( 45% - ( 2 * 1% ) );
+}
+
+.phone {
+    font-size: 1em;
+    padding: 2%;
+    margin: 1% 1% auto;
+    width: calc( 45% - ( 2 * 1% ) );
+}
+
+/*STYLING THE TABLE FORM*/
+
+.tb-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.buttons{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    justify-content: space-between;
+}
+  
+table{
+    margin: 1%;
+    width: 80%;
+}
+  
+.heading{
+    background: gray;
+    color: white;
+    padding: 1%;
+}
+ 
+td{
+    padding: 0;
+    border: 1px solid gray;
+}
+
+th{
+    padding: 1.5%;
+}
+select{
+    
+    font-family:'Varela Round', sans-serif ;
+    padding: 1%;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+input[type="select"]:enabled{
+    background: green;
+}
+  
+  
+  
+button{
+    order: 2;
+    padding: 1%;
+    font-family: 'Chewy';
+    border-radius: 10%;
+    padding: 10%;
+    font-weight: bolder;
+}
+  
+.add-row{
+    background-color: white;
+    font-family: inherit ;
+    color: #10854e;
+    border: 5px solid  #10854e;
+    
+}
+
+.add-row:hover{
+    background-color: #10854e;
+    font-family: inherit ;
+    color: white;
+    transition: border 0.3s ease-in;
+}
+ 
+.dlt-row{
+    background-color: white;
+    font-family: inherit;
+    color: #DC143C;
+    border: 5px solid #DC143C;
+}
+
+.dlt-row:hover{
+    background-color: #DC143C;
+    font-family: inherit;
+    color: white;
+}
+
+.service{
+    width:30%;
+    border: none;
+}
+
+.QTY{
+    width: 1%;
+    border: transparent;
+}
+
+.qty{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.FI{
+    width: 10%;
+    text-align: center;
+}
+
+.Prais{
+    width: 25%;
+    text-align: end;
+}
+
+/*Subtotal,Tip, GST, Total display */
+.resultags, .calculations{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.resultags .Total-tag{
+    background: red;
+    color: white;
+}
+
+.detail{
+    border: 1px solid black;
+    padding: 1.5%;
+}
+
+.Subtotal, 
+.TIP,
+.GST,
+.Total{
+    padding: 1.85%;
+    text-align: start;
+}
+
+.Total{
+    font-weight: bolder;
+}
+
+.FI li,
+.Prais li,
+.Subtotal li, 
+.TIP li,
+.GST li,
+.Total li{
+    display:none;
+}
+
+.FI li:last-child,
+.Prais li:last-child,
+.TIP li:last-child,
+.GST li:last-child,
+.Total li:last-child{
+    display: contents;
+    padding: 1%;
+    text-align: center;
+    list-style: none;
+}
+
+.Subtotal li:last-child{
+    display: contents;
+    padding: 1%;
+    text-align: center;
+    list-style: none;
+    border: 0.5px solid black;
+}
+
+/*social media section*/
+.social-media{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.social-media p{
+    width: 100%;
+    text-align: center;
+}
+
+.fa-facebook-square{
+    font-size: 2em;
+    color: green;
+}
+
+.fa-twitter{
+    font-size: 1em;
+    color: rgb(77, 47, 26);
+}
+
+.fa-instagram-square{
+    font-size: 2em;
+    color: red;
+}
+
+.Charges{
+    line-height: 2;
+}
+
+.empty{
+    visibility: hidden;
+}
+
+.label{
+    text-align: end;
+    padding: 1%;
+    background: gray;
+    color: white;
+}
+
+/* footer*/
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
