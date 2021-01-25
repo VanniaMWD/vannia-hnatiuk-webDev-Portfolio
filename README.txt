@@ -1,20 +1,26 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Vannia's Hnatiuk Portfolio
 
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+Contains: Bio
+	  Resume
+	  Work
+	  Contact links 
+	  
+Work contains: 
+	Treasurie Website -Responsive Static Website of a Ficticious Travel Agency
+	Invoice Application - Tallys the bill of a restaurant
+	Menu App - Responsive App which shows options to cook through an API 
+	Weather App - Responsive App which displays a Poem according to the obtained weather conditions (tokens file by request)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
 
-(* = not included)
 
-AJ
-aj@lkn.io | @ajlkn
+
+
+
+Portfolio design by Dimension by HTML5 UP
+		html5up.net | @ajlkn
+
+
 
 
 Credits:
